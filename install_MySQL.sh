@@ -17,7 +17,7 @@ echo ''
 echo 'Verificando status..'
 systemctl status mysql.service
 echo ''
-.
+
 echo 'Atualizando o sistema novamente...'
 apt-get update -y
 apt-get upgrade -y
