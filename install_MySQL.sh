@@ -14,6 +14,10 @@ echo 'Instalando o MySQ client...'
 apt-get install mysql-client -y
 echo ''
 
+echo 'Verificando status..'
+systemctl status mysql.service
+echo ''
+.
 echo 'Atualizando o sistema novamente...'
 apt-get update -y
 apt-get upgrade -y
